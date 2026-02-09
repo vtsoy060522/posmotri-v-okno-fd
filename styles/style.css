@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -48,4 +51,76 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
+}
+
+.content {
+  display: flex;
+  flex-direction: row; 
+  gap: 37px; 
+  width: 1140px;
+  justify-content: center; 
+  align-items: flex-end; 
+  padding-bottom: 44px;
+}
+
+.search-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  gap: 20px;
+}
+
+.content__list-container {
+ 
+  height: 298px;
+  overflow-y: auto; 
+  padding-top: 10px; 
+
+}
+
+.content__details {
+height: 534px;
+width: 399px;
+}
+
+.result__video-container {
+height: 386px;
+width: 711px;
+margin-bottom: 44px;
+}
+
+.result__video {
+height: 100%;
+width: 100%;
+object-fit:cover;
+}
+
+.content__list {
+display: flex;
+flex-direction: column;
+gap: 50px; 
+}
+
+.content__list-container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.content__video-card {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 10px;
+width: 100%;
+}
+
+.content__video-card-thumbnail { 
+height: 103px;  
+min-width: 197px;
+object-fit: cover;
+object-position: center; 
+}
+
+.content__video-card-description-container {
+flex-grow:1;
 }

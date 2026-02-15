@@ -82,7 +82,6 @@ ol {
   gap: 35px;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 126px;
   appearance: none;
 }
 
@@ -214,7 +213,6 @@ ol {
 
 .content__details {
   width: 399px;
-  padding-bottom: 149px;
 }
 
 .title {
@@ -230,7 +228,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 298px;
+  height: 323px;
   width: 399px;
   overflow-y: auto;
   padding-top: 10px;

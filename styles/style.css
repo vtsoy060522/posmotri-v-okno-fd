@@ -65,7 +65,7 @@ ol {
 .result__video-container {
   height: 392px;
   width: 714px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   position: relative;
 }
 
@@ -213,7 +213,6 @@ ol {
 
 .content__details {
   width: 399px;
-  margin-bottom: 4px;
 }
 
 .title {
@@ -232,20 +231,20 @@ ol {
   height: 323px;
   width: 399px;
   overflow-y: auto;
-  padding-top: 8px;
   position: relative;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 11px;
   margin-right: 3px;
 }
 
 .content__list-item {
   padding-left: 3px;
   padding-right: 3px;
+  margin-top: 25px;
 }
 
 .content__card-link {
